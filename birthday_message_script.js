@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- YOUR PERSONAL MESSAGE ---
     // **CRITICAL: CUSTOMIZE THIS MESSAGE!**
     const MESSAGE_LINES = [
-        "Hey bestie! 💕",
-        "You mean the world to me...",
+        "Hey Huli! 💕",
+        "You are My Best Hostel friend",
         "Through every laugh, every tear, every crazy adventure...",
-        "You've been my constant, my support, my partner in crime! 🥳",
+        "You've been my constant, my support, my in crime! 🥳",
         "Thank you for being the most amazing friend anyone could ask for! ✨",
         "Here's to many more years of friendship, fun, and unforgettable memories! 💖",
         "Happy Birthday, my dear friend! 🥂"
