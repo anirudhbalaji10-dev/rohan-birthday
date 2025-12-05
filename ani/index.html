@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little Gift of Friendship</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="loading-screen" class="screen">
+        <div class="spinner-container">
+            <div class="ring ring-cyan"></div>
+            <div class="ring ring-magenta"></div>
+            <div class="ring ring-purple"></div>
+            <div class="heart"></div>
+        </div>
+        
+        <h1 class="main-title">A Little Gift of Friendship</h1>
+        <p class="subtitle">Made of memories and magic...</p>
+
+        <div class="loading-bar-container">
+            <div id="loading-bar" class="loading-bar"></div>
+        </div>
+    </div>
+
+    <div id="greeting-screen" class="screen hidden">
+        <div class="heart-icon"></div>
+
+        <h2 class="greeting-title">
+            <span class="cyan-text">This</span> <span class="pink-text">Birthday</span> <span class="cyan-text">I've</span> Made<br>
+            Something <span class="pink-text">Just For You!</span>
+        </h2>
+        
+        <p class="greeting-message">
+            Get ready for a little journey packed with memories, fun, and friendship magic!
+        </p>
+
+        <button id="start-button" class="surprise-button">
+            Start the Surprise 🎁
+        </button>
+
+        <p class="click-note">Click to unwrap the surprise!</p>
+    </div>
+
+    <script src="script.js"></script>
+
+    <audio src="birthday_song.mpeg" autoplay loop></audio>
+</body>
+</html>
