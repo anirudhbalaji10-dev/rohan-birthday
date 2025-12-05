@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Memory Album</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="album_script.js" defer></script> 
+
+    <audio src="birthday_song.mpeg" autoplay loop></audio>
+</head>
+<body class="album-page">
+
+    <header class="album-header">
+        <h1 class="album-title">Our <span class="pink-text">Memory</span> Album</h1>
+    </header>
+
+    <main class="album-content">
+
+        <div id="album-book" class="album-book">
+            <div class="book-cover">
+                <div class="book-icon"></div>
+                <h2>Birthday Memories</h2>
+                <p>Tap to Open</p>
+                <div class="heart-pulse"></div>
+            </div>
+        </div>
+
+        <div id="photo-carousel" class="photo-carousel hidden-album">
+            
+            <button id="prev-btn" class="nav-btn left-nav">&lt;</button>
+
+            <div class="photo-card">
+                <img id="current-photo" src="placeholder.jpg" alt="Memory Photo" class="current-photo">
+                <div class="counter"><span id="current-index">1</span> of <span id="total-photos">4</span></div>
+            </div>
+
+            <button id="next-btn" class="nav-btn right-nav">&gt;</button>
+
+            <a id="final-message-link" href="#" class="final-message-link hidden-link">
+                Continue to Final Message &rarr;
+            </a>
+        </div>
+        
+    </main>
+
+    <footer class="album-footer">
+        <p id="album-message">Tap the book to explore our beautiful memories</p>
+    </footer>
+
+</body>
+</html>
